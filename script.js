@@ -21,7 +21,7 @@ const destinations = [
         language: "Japanese",
         image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=80"
     },
-{
+   {
         number: "03",
         country: "ITALY",
         title: "Rome",
