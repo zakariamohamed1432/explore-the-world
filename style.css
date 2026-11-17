@@ -78,6 +78,7 @@ body {
     min-height: 480px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .subtitle {
@@ -160,12 +161,14 @@ body {
     position: relative;
     width: 50%;
     min-height: 450px;
+    overflow: hidden;
 }
 
 .card-image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
     display: block;
 }
 
@@ -305,4 +308,38 @@ body {
     background-color: #f5a623;
     width: 20px;
     border-radius: 4px;
+}
+
+/* التجاوب مع التليفونات والشاشات الصغيرة */
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 20px;
+    }
+    .nav-links {
+        display: none;
+    }
+    .hero-section {
+        padding: 40px 20px;
+        min-height: 350px;
+    }
+    .hero-content h1 {
+        font-size: 32px;
+    }
+    .destinations-section {
+        padding: 20px 15px;
+    }
+    .card {
+        flex-direction: column-reverse;
+    }
+    .card-image-container {
+        width: 100%;
+        min-height: 280px;
+    }
+    .card-body {
+        width: 100%;
+        padding: 20px;
+    }
+    .card-body h3 {
+        font-size: 24px;
+    }
 }
