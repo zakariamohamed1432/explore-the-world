@@ -10,18 +10,7 @@ const destinations = [
         language: "French",
         image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80"
     },
-    {
-        number: "02",
-        country: "JAPAN",
-        title: "Tokyo",
-        description: "Tokyo is a modern city that combines advanced technology with traditional Japanese culture.",
-        continent: "Asia",
-        food: "Sushi, Ramen",
-        place: "Tokyo Tower",
-        language: "Japanese",
-        image: "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=800&q=80"
-    },
- {
+     {
         number: "02",
         country: "JAPAN",
         title: "Tokyo",
@@ -31,6 +20,17 @@ const destinations = [
         place: "Tokyo Tower",
         language: "Japanese",
         image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=80"
+    },
+{
+        number: "03",
+        country: "ITALY",
+        title: "Rome",
+        description: "Rome is famous for its ancient history, beautiful architecture and delicious Italian food.",
+        continent: "Europe",
+        food: "Pizza, Pasta",
+        place: "Colosseum",
+        language: "Italian",
+        image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=800&q=80"
     },
     {
         number: "04",
