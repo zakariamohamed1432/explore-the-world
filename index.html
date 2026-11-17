@@ -7,86 +7,86 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="nav-container">
+    <div class="site-wrapper">
+        <header class="header">
             <div class="logo">Explore<span>.</span></div>
+            <nav class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#destinations">Destinations</a>
+                <a href="#about">About Us</a>
+            </nav>
             <button class="explore-btn-top">Explore Now</button>
-        </div>
-        <nav class="nav-links">
-            <a href="#home" class="active">Home</a>
-            <a href="#destinations">Destinations</a>
-            <a href="#about">About Us</a>
-        </nav>
-    </header>
+        </header>
 
-    <main>
-        <section id="home" class="hero-section">
-            <div class="hero-content">
-                <span class="subtitle">DISCOVER THE WORLD</span>
-                <h1>Explore The<br><span class="highlight">Beautiful World</span></h1>
-                <p>Discover amazing places, explore different cultures and experience unforgettable journeys.</p>
-                <button class="start-btn">Start Exploring</button>
-            </div>
-        </section>
+        <main>
+            <section id="home" class="hero-section">
+                <div class="hero-content">
+                    <span class="subtitle">DISCOVER THE WORLD</span>
+                    <h1>Explore The<br><span class="highlight">Beautiful World</span></h1>
+                    <p>Discover amazing places, explore different cultures and experience unforgettable journeys.</p>
+                    <button class="start-btn">Start Exploring</button>
+                </div>
+            </section>
 
-        <section id="destinations" class="destinations-section">
-            <div class="section-header">
-                <span class="subtitle">YOUR NEXT ADVENTURE</span>
-                <h2>Popular Destinations</h2>
-                <p>Explore some of the most beautiful cities in the world.</p>
-            </div>
-
-            <div class="slider-container">
-                <div class="card">
-                    <div class="card-image-container">
-                        <img id="dest-img" src="" alt="Destination">
-                        <div class="destination-badge">
-                            <span class="dest-label">DESTINATION</span>
-                            <span id="dest-number" class="dest-num">01</span>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="progress-indicator" id="progress-text">01 / 04</div>
-                        <span id="dest-country" class="country-tag">FRANCE</span>
-                        <h3 id="dest-title">Paris</h3>
-                        <p id="dest-desc">Paris is one of the most beautiful cities in the world, famous for its art, architecture and romantic atmosphere.</p>
-                        
-                        <div class="info-grid">
-                            <div class="info-item">
-                                <span class="info-label">Continent</span>
-                                <span id="info-continent" class="info-value">Europe</span>
-                            </div>
-                            <div class="info-item">
-                                <span class="info-label">Famous Food</span>
-                                <span id="info-food" class="info-value">Croissant, Macarons</span>
-                            </div>
-                            <div class="info-item">
-                                <span class="info-label">Famous Place</span>
-                                <span id="info-place" class="info-value">Eiffel Tower</span>
-                            </div>
-                            <div class="info-item">
-                                <span class="info-label">Language</span>
-                                <span id="info-lang" class="info-value">French</span>
-                            </div>
-                        </div>
-
-                        <button class="explore-more-btn">Explore More</button>
-                    </div>
+            <section id="destinations" class="destinations-section">
+                <div class="section-header">
+                    <span class="subtitle">YOUR NEXT ADVENTURE</span>
+                    <h2>Popular Destinations</h2>
+                    <p>Explore some of the most beautiful cities in the world.</p>
                 </div>
 
-                <div class="slider-nav">
-                    <button id="prev-btn" class="nav-action-btn prev">← Previous</button>
-                    <div class="dots" id="dots-container">
-                        <span class="dot active"></span>
-                        <span class="dot"></span>
-                        <span class="dot"></span>
-                        <span class="dot"></span>
+                <div class="slider-container">
+                    <div class="card">
+                        <div class="card-image-container">
+                            <img id="dest-img" src="" alt="Destination">
+                            <div class="destination-badge">
+                                <span class="dest-label">DESTINATION</span>
+                                <span id="dest-number" class="dest-num">01</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="progress-indicator" id="progress-text">01 / 04</div>
+                            <span id="dest-country" class="country-tag">FRANCE</span>
+                            <h3 id="dest-title">Paris</h3>
+                            <p id="dest-desc">Paris is one of the most beautiful cities in the world, famous for its art, architecture and romantic atmosphere.</p>
+                            
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <span class="info-label">Continent</span>
+                                    <span id="info-continent" class="info-value">Europe</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Famous Food</span>
+                                    <span id="info-food" class="info-value">Croissant, Macarons</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Famous Place</span>
+                                    <span id="info-place" class="info-value">Eiffel Tower</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Language</span>
+                                    <span id="info-lang" class="info-value">French</span>
+                                </div>
+                            </div>
+
+                            <button class="explore-more-btn">Explore More</button>
+                        </div>
                     </div>
-                    <button id="next-btn" class="nav-action-btn next">Next →</button>
+
+                    <div class="slider-nav">
+                        <button id="prev-btn" class="nav-action-btn prev">← Previous</button>
+                        <div class="dots" id="dots-container">
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                        <button id="next-btn" class="nav-action-btn next">Next →</button>
+                    </div>
                 </div>
-            </div>
-        </section>
-    </main>
+            </section>
+        </main>
+    </div>
 
     <script src="script.js"></script>
 </body>
