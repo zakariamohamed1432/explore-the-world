@@ -10,7 +10,7 @@ const destinations = [
         language: "French",
         image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80"
     },
-     {
+{
         number: "02",
         country: "JAPAN",
         title: "Tokyo",
@@ -19,7 +19,7 @@ const destinations = [
         food: "Sushi, Ramen",
         place: "Tokyo Tower",
         language: "Japanese",
-        image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=80"
+        image: "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=800&q=80"
     },
    {
         number: "03",
